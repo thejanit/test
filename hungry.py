@@ -5,4 +5,8 @@ if hungry == 'yes':
     print('Eat pizza')
     print('Eat rice')
 else:
-    print('Do ur homework')
+    thirsty = input('are u thirsty? ')
+    if thirsty == 'yes':
+        print('drink water')
+        print('drink soda')
+    # print('Do ur homework')
